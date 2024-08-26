@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 export default function Layout({ children }) {
   return (
     <div className="flex flex-col justify-between min-h-dvh">
-      <nav className="bg-gray-300">
-        <h3 className="px-4 py-3 font-medium">RapidQuest</h3>
+      <nav className="bg-blue-100">
+        <h3 className="px-4 py-3 font-medium text-lg">RapidQuest</h3>
       </nav>
       <main className="flex-1">{children}</main>
       <footer>
