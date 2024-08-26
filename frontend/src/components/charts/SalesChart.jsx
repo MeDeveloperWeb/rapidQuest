@@ -71,7 +71,7 @@ export default function SalesChart() {
       </header>
       {!data ? (
         <p className="h-[300px] flex justify-center items-center text-sm italic text-slate-600">
-          Loading...
+          Loading... (Server is hosted for free, so please be patient)
         </p>
       ) : !data.length ? (
         <p className="h-[300px] flex justify-center items-center text-sm italic text-slate-600">

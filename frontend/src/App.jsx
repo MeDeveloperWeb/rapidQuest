@@ -8,7 +8,7 @@ import GeoChart from "./components/charts/GeoChart";
 function App() {
   return (
     <Layout>
-      <div className="grid grid-cols-1 xl:grid-cols-2 xl:p-4 gap-x-4 gap-y-16">
+      <div className="grid grid-cols-1 xl:grid-cols-2 xl:p-4 gap-x-4 gap-y-16 pb-12">
         <SalesChart />
         <GrowthChart />
         <NewCustomerChart />
